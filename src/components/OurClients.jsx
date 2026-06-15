@@ -36,13 +36,13 @@ const OurClients = () => {
 
         {/* Logos */}
         <div className="mt-10 md:mt-12">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-y-8 gap-x-6 place-items-center">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-y-6 gap-x-4 place-items-center">
             {clientLogos.map((logo, index) => (
               <img
                 key={index}
                 src={logo}
                 alt={`Client ${index + 1}`}
-                className="h-6 md:h-7 lg:h-8 w-auto object-contain transition duration-300 hover:scale-110"
+                className="h-4 sm:h-5 md:h-7 lg:h-8 w-auto object-contain transition duration-300 hover:scale-110"
               />
             ))}
           </div>
